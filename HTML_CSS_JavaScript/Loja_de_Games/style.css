@@ -1,0 +1,53 @@
+/*pagina toda*/
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*cabeçalho*/
+header{
+    text-align: center;
+    background-color: rgb(211, 139, 245);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+    padding: 100px;
+    border: 5px solid rgb(92, 19, 145);
+    margin: 0 0 50px 0; /*ou marginbottom:50px */
+    border-radius: 20px;
+}
+
+/*menu*/
+a{
+    color: rgb(92, 19, 145);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-transform:capitalize;
+}
+
+/* imagem
+img{
+    width: 100%;
+}*/
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(211, 139, 245);
+
+    padding: 20 px;
+}
+
+li{
+    letter-spacing: .1px;
+    padding: 5px 0;
+}
+ul{
+    padding: 50px;
+}
