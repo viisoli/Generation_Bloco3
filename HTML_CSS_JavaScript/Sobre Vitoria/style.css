@@ -37,20 +37,26 @@ nav{
     border-radius: 20px;
     text-decoration: none; 
 }
-
+.p1{
+    font-size: large;
+}
 button{
     border-radius: 20px;
 }
 
 /* imagem*/
-img{
+.capa{
     width: 100%;
     border-radius: 20px;
 }
 
-li{
-    display: inline
+.hobbies li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
     }
+    
 
 /*Rodapé*/
 footer{
@@ -61,5 +67,6 @@ footer{
     background-color: #da689d;
     border-radius: 20px;
 
-    padding: 20 px;
+    padding: 50 px;
+    margin: 50px 0 0 0 ;
 }

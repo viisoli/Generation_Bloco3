@@ -12,6 +12,6 @@ function clique(){
 let nome = window.document.getElementById("nome")
 let email = document.getElementById("email")//podemos omitir o window
 let assunto = document.getElementById("assunto")
-
+let data = document.getElementById("data")
 
     
