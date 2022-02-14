@@ -12,7 +12,7 @@ body{
 header{
     text-align: center;
     background-color: #da689d;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-transform: uppercase;
     padding: 20px;
     margin: 0 0 10px 0; /*ou marginbottom:50px */
@@ -21,24 +21,40 @@ header{
 }
 
 /*corpo*/
-h1{
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+#menu li a:hover {
+    color: #eb0871;
+}
+.titulo{
     text-align: center;
     background-color: #da689d;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+.subtitulo{
+    text-align:left;
+    color: #000000;
 }
 
 nav{
-    text-align: center;
-    background-color: #da689d;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    padding: 20px;
+    text-align:center;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform:capitalize;
+    padding: 10px;
     margin: 0 0 10px 0;
     border-radius: 20px;
     text-decoration: none; 
 }
-.p1{
-    font-size: large;
+.p-30{
+    padding: 30px;
 }
 button{
     border-radius: 20px;
@@ -62,7 +78,7 @@ button{
 footer{
     text-align: center;
     font-size: 15px;
-    color:rgb(255, 255, 255);
+    color:#000000;
     text-transform: uppercase;
     background-color: #da689d;
     border-radius: 20px;
@@ -70,4 +86,41 @@ footer{
     padding: 50 px;
     margin: 50px 0 0 0 ;
 }
+.tm-social{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding: 30px;
+}
 
+/*CONTATO*/
+
+/*body*/
+.container{
+    display:flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.p-30{
+    padding: 50px;
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+textarea{
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
